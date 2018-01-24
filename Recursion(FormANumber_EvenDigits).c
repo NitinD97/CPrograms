@@ -60,6 +60,6 @@ int main()
 {
     int no=-163505;
     no=evenDigits(no);
-    printf("RESULT: %d",no);
+    printf("RESULT is: %d",no);
     return 0;
 }
