@@ -1,1 +1,3 @@
 # CPrograms
+
+COMPILE and RUN
