@@ -6,12 +6,6 @@ compressed string will be
 a4b2c2d3
 */
 
-char *addNumber(char *cnt,char *a)
-{
-
-
-}
-
 char * compressString(char a[])
 {
     char *b;
