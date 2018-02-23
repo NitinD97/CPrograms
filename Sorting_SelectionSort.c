@@ -17,18 +17,21 @@ void selectionSort(int  array[], int n)
     for (j = i+1; j < n; j++)        // Find the minimum element
       if (array[j] < array[index])
         index = j;
-    printf("While i = %d\n",i);
-    printf("Minimum Element = %d\n",array[index]);
+    //printf("While i = %d\n",i);
+    //printf("Minimum Element = %d\n",array[index]);
 
+    if(array[index]!=array[i]){
     temp = array[index];    /* Swap the minimum element with first element of unsorted array so that size of sorted array will increase. */
     array[index] = array[i];
     array[i] = temp;
-    printf("Elements swapped are %d & %d\n\n",array[i], array[index]);
+    //printf("Elements swapped are %d & %d\n\n",array[i], array[index]);
+    }
+    
   }
 
-  printf("Array after %d iterations - \n",i+1);
-  printArray(array, n);   // During Sorting
-  printf("\n");
+  //printf("Array after %d iterations - \n",i+1);
+  //printArray(array, n);   // During Sorting
+  //printf("\n");
 
 }
 
