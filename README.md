@@ -1,3 +1,4 @@
-# CPrograms
+# Basic and advanced string manipulation CPrograms
 
-COMPILE and RUN
+How to use ?
+	COMPILE and RUN
